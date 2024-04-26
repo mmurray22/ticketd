@@ -32,7 +32,8 @@
 #define LEADER_URL_LEN 512
 #define IPC_PIPE_NAME "ticketd_ipc"
 #define HTTP_WORKERS 4
-#define IP_STR_LEN strlen("111.111.111.111")
+#define IP_STR_LEN 15
+//#define IP_STR_LEN strlen("111.111.111.111")
 
 typedef enum {
     HANDSHAKE_FAILURE,
